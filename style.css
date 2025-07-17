@@ -1,0 +1,99 @@
+css
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #816969;
+  color: #333;
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+header {
+  background: #1b1818;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+nav {
+  background: #3d305b;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+section {
+  padding: 2rem;
+  margin: 1rem auto;
+  max-width: 800px;
+  background: white;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #eee;
+}
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+@media screen and (max-width: 600px) {
+  header, section {
+    padding: 1rem;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .profile-pic {
+    width: 90px;
+    height: 90px;
+  }
+}
+h1 {
+  animation: fadeInDown 1s ease-in-out;
+}
+
+@keyframes fadeInDown {
+  from {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+a:hover {
+  color: #ff4081;
+  transition: color 0.3s ease;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
+  padding: 0;
+  margin: 0;
+}
+
+
